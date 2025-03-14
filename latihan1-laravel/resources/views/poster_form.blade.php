@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h2>Pendaftaran Lomba Desain Poster</h2>
+        <h2>Pendaftaran Lomba Ngewe</h2>
         <form action="/poster/submit" method="post" enctype="multipart/form-data">
             @csrf
             <div class="mb-3">

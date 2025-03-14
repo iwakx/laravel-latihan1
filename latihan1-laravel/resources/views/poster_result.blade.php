@@ -12,7 +12,7 @@
         <p><strong>Nama:</strong> {{ $data['name'] }}</p>
         <p><strong>Kelas:</strong> {{ $data['class'] }}</p>
         <p><strong>Judul Poster:</strong> {{ $data['poster_title'] }}</p>
-        <p><strong>Poster:</strong></p>
+        <p><strong>Memek:</strong></p>
         <img src="{{ asset('storage/' . $data['poster_path']) }}" width="300" alt="Poster">
     </div>
 </body>

@@ -31,4 +31,12 @@ class DaftarController extends Controller
 
         return view('poster_result', compact('data'));
     }
+
+    public function download(Request $request)
+    {
+        $path = $request->input('path');
+        return response()->download(storage_path('app/public/' . $path));
+    }
+
+    
 }
